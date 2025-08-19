@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import pandas_datareader as data
+#import pandas_datareader as data
 import yfinance as yf
 import seaborn as sns
 import streamlit as st
@@ -264,6 +264,7 @@ if st.button("Fetch Data") and stock:
         plt.ylabel('Price')
         plt.legend()
         st.pyplot(fig6)      
+
 
 
 
